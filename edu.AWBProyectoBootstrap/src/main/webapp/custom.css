@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+/*index.html*/
+header{
+	text-align: right;
+}
+.barra-rectangulo{
+	padding-bottom: 2rem;
+}
+.barra-rectangulo{
+	box-shadow: 0px -5px 20px rgba(203,203,203);
+}
+.cesta-compra{
+	color: rgba(41,47,54);
+	text-decoration: none;
+}
+.cesta-compra:hover{
+	color: rgba(131,144,250);
+	text-decoration-line: underline;
+}
+.perfil{
+	color: rgba(41,47,54);
+	text-decoration: none;
+}
+.perfil:hover{
+	color: rgba(131,144,250);
+	text-decoration-line: underline;
+}
