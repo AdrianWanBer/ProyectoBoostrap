@@ -3,34 +3,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 
-body {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
-}
 
 /*index.html*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+}
 header{
-	text-align: right;
+	width: 100%;
+	height: 80px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 10px;
 }
-.barra-rectangulo{
-	padding-bottom: 2rem;
+.logo{
+	
 }
-.barra-rectangulo{
-	box-shadow: 0px -5px 20px rgba(203,203,203);
+.barras{
+	display: none;
+
 }
-.cesta-compra{
-	color: rgba(41,47,54);
-	text-decoration: none;
+.nav-barra{
+	display: flex;
+	
 }
-.cesta-compra:hover{
-	color: rgba(131,144,250);
-	text-decoration-line: underline;
-}
-.perfil{
-	color: rgba(41,47,54);
-	text-decoration: none;
-}
-.perfil:hover{
-	color: rgba(131,144,250);
-	text-decoration-line: underline;
+.nav-barra ul li a {
+	display: block;
+	color: #292f36;
+	font-size: 18px;
+	padding: 5px 1px ;
+	border-radius: 15px;
+	
 }
