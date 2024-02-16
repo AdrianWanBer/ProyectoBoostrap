@@ -20,6 +20,10 @@
 .navegador {
 	align-items: center;
 }
+.opciones-desplegadas{
+	text-decoration: none;
+	color: black;
+}
 
 .logo {
 	width: 50px;
