@@ -12,7 +12,7 @@
 .barra-navegacion {
 	padding: 15px;
 	background-color: white;
-	box-shadow: 0px 0px 10px black;
+	box-shadow: 0px 0px 10px rgb(0, 0, 0);
 	background-image: url(imagenes/patron-cabecera.png);
 	background-position: 0px -20px;
 }
@@ -20,7 +20,8 @@
 .navegador {
 	align-items: center;
 }
-.opciones-desplegadas{
+
+.opciones-desplegadas {
 	text-decoration: none;
 	color: black;
 }
@@ -50,4 +51,25 @@
 .bi-basket2,
 .bi-ticket-perforated {
 	font-size: 25px;
+}
+
+.lateral {
+	margin-top: 100px;
+	background-color: white;
+	margin-left: 0px;
+}
+
+.lista-derecha {
+	list-style: none;
+	padding: 10px;
+}
+
+.lista-derecha-enlaces {
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+.lista-derecha-enlaces:hover{
+	transition: 200ms;
+	color: #fb090b;
 }
