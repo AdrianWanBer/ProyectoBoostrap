@@ -155,5 +155,16 @@ header {
 	
 		75%{margin-left: -450%;}
 	100%{margin-left: -450%;}
+}
+/*------------------------------------------- FIN --------------------------------------------*/
 
+/*------------------------------------------- PRODUCTOS --------------------------------------------*/
+
+.productos {
+	width: 120px;
+	height: 400px;
+	background-color: white;
+	border-radius: 10px;
+	margin: 10px;
+	display: flex;
 }
