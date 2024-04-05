@@ -37,6 +37,9 @@ header {
 	width: 30px;
 	margin-top: 10px
 }
+.nav-bar{
+	margin-top: 20px;
+}
 .paquete {
 	display: none;
 }
@@ -118,9 +121,39 @@ header {
 
 /*------------------------------------------- CARROUSEL --------------------------------------------*/
 
-.container{
+.containertip{
 	height: 100vh;
 	width: 100vh;
 	display: grid;
 	place-content: center;
+}
+.slide {
+	width: 100vw;
+	max-width: 1920px;
+	max-height: 1080px;
+	width: 1280px;
+	height: 720px;
+	overflow: hidden;
+	border-radius: 10px;
+}
+.slide ul {
+	display: flex;
+	padding: 0;
+	width: 450%;
+	
+	animation: slide 15s infinite cubic-bezier(0.55, 0.48, 0.37, 0.92);
+}
+@keyframes slide {
+	0%{margin-left: 0;}
+	20%{margin-left: 0;}
+	
+		25%{margin-left: -150%;}
+	45%{margin-left: -150%;}
+	
+		50%{margin-left: -300%;}
+	70%{margin-left: -300%;}
+	
+		75%{margin-left: -450%;}
+	100%{margin-left: -450%;}
+
 }
