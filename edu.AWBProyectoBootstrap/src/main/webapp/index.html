@@ -6,10 +6,14 @@
 	<title>Tienda Online</title>
 	<!-- meta para todos -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Adrian Wandelmer Berenguer">
+	<meta name="description"
+		content="Pagina oficial de la Juventos FC, mejor estar informado de los partidos de tu equipo favorito">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 	<link rel="stylesheet" href="custom.css">
+	<link rel="shortcut icon" href="imagenes/Juventus_FC_2017_logo.png" />
 	<!-- ### -->
 </head>
 
@@ -50,34 +54,64 @@
 	<!-- Todo -->
 
 	<main>
-
-
-		<!-- Carrousel -->
-		<div class="container containertip">
-			<div class="slide">
-				<ul>
-					<li><img src="imagenes/OSCURO 1.png" alt=""></li>
-					<li><img src="imagenes/OSCURO 2.png" alt=""></li>
-					<li><img src="imagenes/OSCURO 3.png" alt=""></li>
-					<li><img src="imagenes/jugadores-juventus-celebran-gol-sporting-liga-europa_98 (1).png" alt=""></li>
-				</ul>
-			</div>
-		</div>
-		<!-- Carrousel FIN -->
-
 		<div class="container">
 			<div class="row">
-				<div class="col col-sm productos">
-					<img src="imagenes/pogba-jugador-de-la-juventus-de-turin-da-positivo-en-un-control-antidoping.png">
-				</div>
-				<div class="col col-sm productos">
 
+				<div class="col d-none d-lg-block barraDeNavegacionVertical">
+					<a href="" class="barraDeNavegacionVertical_texto">Productos</a>
+					<br>
+					<br>
+					<a href="" class="barraDeNavegacionVertical_texto">Cesta</a>
+					<br>
+					<br>
+					<a href="" class="barraDeNavegacionVertical_texto">Rebajas</a>
 				</div>
-				<div class="col col-sm productos">
 
+
+				<div class="col-10">
+
+
+					<!-- Carrousel -->
+					<div class="container containertip">
+						<div class="slide">
+							<ul>
+								<li><img src="imagenes/OSCURO 1.png" alt=""></li>
+								<li><img src="imagenes/OSCURO 2.png" alt=""></li>
+								<li><img src="imagenes/OSCURO 3.png" alt=""></li>
+								<li><img src="imagenes/jugadores-juventus-celebran-gol-sporting-liga-europa_98 (1).png"
+										alt=""></li>
+							</ul>
+						</div>
+					</div>
+					<!-- Carrousel FIN -->
+
+					<!-- Productos Tienda -->
+
+					<div class="container productosTienda">
+						<div class="row">
+							<div class="card" style="cartasCamisetas">
+								<img src="imagenes/pogba-jugador-de-la-juventus-de-turin-da-positivo-en-un-control-antidoping.png"
+									class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">CAMISETA POGBA</h5>
+									<p class="card-text">Camiseta oficial de la Juventus</p>
+									<a href="#" class="btn btn-dark">Añadir a la cesta</a>
+								</div>
+							</div>
+							<div class="col-11 col-sm productos">
+
+							</div>
+							<div class="col-11 col-sm productos">
+
+							</div>
+						</div>
+					</div>
 				</div>
+
+
 			</div>
 		</div>
+		<!-- Productos Tienda FIN -->
 
 	</main>
 
@@ -87,12 +121,13 @@
 		<div class="pie">
 			<p class="copyright">Juventus Corps©</p>
 
-			<a class="documentacion" href="#">Documentacion</a>
+			<a class="documentacion" href="documentacion.html">Terminos y condiciones</a>
 		</div>
 	</footer>
 
 	<!-- Todo FIN -->
 
+	<!-- Java script -->
 	<script>
 		paquete = document.querySelector(".paquete");
 		paquete.onclick = function () {
@@ -100,7 +135,11 @@
 			navBar.classList.toggle("active");
 		}
 	</script>
+	<script src="Javascript.js"></script>
 
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+		crossorigin="anonymous"></script>
 </body>
 
 </html>
